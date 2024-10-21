@@ -1,0 +1,294 @@
+.flex-bienvenida {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cuadrado {
+    width: 300px;
+    /* Ancho del cuadrado */
+    height: 300px;
+    /* Alto del cuadrado */
+
+    /* Borde del cuadrado */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    /* Incluye el padding y el borde en el tamaño total */
+    margin: 6vh;
+    margin-left: 15vh;
+}
+
+.img-bienvenida {
+    width: 100vh;
+    margin: 15vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: left;
+
+    nav {
+        padding: 2rem;
+        background-color: #0EADEA;
+    }
+
+    main {
+        padding: 1rem;
+        background-color: rgb(252, 252, 252);
+        flex: 1;
+    }
+
+    footer {
+        padding: 5rem;
+        background-color: #2B3441;
+        text-align: center;
+    }
+}
+
+.redesSociales {
+    width: 3rem;
+}
+
+.vineta {
+    list-style-type: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul li {
+    display: block;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+}
+
+footer h5 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.footer-1 ul {
+    padding: 0;
+    align-items: center;
+}
+
+.footer-1 ul li {
+    list-style: none;
+    /* Elimina los puntos de las viñetas */
+    display: flex;
+    align-items: center;
+    /* Centra los iconos verticalmente con el texto */
+    margin-bottom: 1rem;
+    /* Añade espacio entre filas */
+}
+
+.footer-1 ul li img {
+    margin-right: 0.5rem;
+    /* Espacio entre el icono y el texto */
+}
+
+.contenedor-redes {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+}
+
+.primerFila {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.segundaFila {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-body {
+    background-color: #3B7C96;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contact-info img {
+    margin-right: 10px;
+}
+
+.primerLinea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.primerLinea img {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.segundaLinea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.segundaLinea img {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.custom-navbar {
+    background-color: #0EADEA;
+    height: 6rem;
+}
+
+.custom-col-footer {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.map {
+    width: 450vh;
+    height: 75vh;
+    border: 2px solid #ccc;
+}
+
+iframe {
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.address-box {
+    background-color: #3d565f;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    height: 300px;
+    /* Para que la altura coincida con la del mapa */
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    /* Centra el texto verticalmente */
+}
+
+.address-box h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.address-box p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.container-nosotros {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    margin-bottom: 20px;
+
+}
+
+.accordion-body {
+    background-color: #f8f9fa;
+    /* Fondo del cuerpo */
+    color: #2F3C41;
+    /* Color del texto */
+}
+
+.accordion-button::after {
+    filter: invert(1);
+    /* Cambia el color del ícono del acordeón */
+}
+
+.accordion-button {
+    background-color: #3B7C96;
+    /* Cambia a tu color deseado */
+    color: white;
+    /* Cambia el color del texto */
+}
+
+/* Cambiar color de fondo cuando está colapsada */
+.accordion-button.collapsed {
+    background-color: #2F3C41;
+    /* Color del botón cuando está colapsado */
+    color: white;
+}
+
+.container-agendarCita {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.form-container {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.form-container h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #45a049;
+}
